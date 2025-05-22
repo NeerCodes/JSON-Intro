@@ -14,9 +14,10 @@
 - JSON objects are enclosed in curly braces {}.
 - Objects can contain multiple name/value pairs.
 
->>> data.json
+> data.json
 ```java
 {
   "firstName": "John",
   "lastName": "Doe"
-}```
+}
+
