@@ -20,9 +20,26 @@
   "firstName": "John",
   "lastName": "Doe"
 }
+```
 
 ### **JSON Arrays**
 - JSON arrays are enclosed in square brackets [].
 - An array can contain objects.
 
-
+> employeeData.json
+```java
+"employess": [
+ {
+   "firstName": "John",
+   "lastName": "Doe"
+ },
+{
+   "firstName": "Anna",
+   "lastName": "Smith"
+ },
+{
+   "firstName": "Peter",
+   "lastName": "Jones"
+ }
+]
+```
