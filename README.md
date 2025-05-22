@@ -64,3 +64,22 @@ console.log(jsonStr); //Output: "{\name\":\"John",\"age\":22}"
 
 
 ### **JSON code to handle JSON data from an API**
+> fetch.js
+```js
+async function fetchData(url) {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`Error fetching data: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data; // Return the parsed data
+
+  } catch (error) {
+    console.error("Error:", error);
+    return null;
+  }
+}
+```
