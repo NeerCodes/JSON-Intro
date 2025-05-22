@@ -15,7 +15,7 @@
 - Objects can contain multiple name/value pairs.
 
 > data.json
-```java
+```js
 {
   "firstName": "John",
   "lastName": "Doe"
@@ -27,7 +27,7 @@
 - An array can contain objects.
 
 > employeeData.json
-```java
+```js
 "employess": [
  {
    "firstName": "John",
@@ -43,3 +43,10 @@
  }
 ]
 ```
+
+### **Converting JSON to Js Objects & Js Objects to JSON**
+##### To convert a JSON string to JavaScript object, use JSON.parse().
+> parse.js
+```js
+let jsonString = '{"name": "Alice", "age": 25};
+let jsonObject = <span style="color:blue">JSON.parse</span>(jsonString);
