@@ -61,3 +61,6 @@ let jsonData = {"name": "John", "age": 22};
 let jsonStr = JSON.stringify(jsonData);
 console.log(jsonStr); //Output: "{\name\":\"John",\"age\":22}"
 ```
+
+
+### **JSON code to handle JSON data from an API**
